@@ -1,7 +1,13 @@
-<!-- author information -->
 
-by <a href="mailto:firstname.lastname [@] outlook.com">Konstantin
-Lang</a>
+GitHub Test
+===========
+
+<div>
+
+by <a href="mailto:firstname.lastname [@] outlook.com">Konstantin “Karl
+Komet” Lang</a>
+
+</div>
 
 Purpose
 =======
@@ -11,4 +17,6 @@ Test connection to RStudio
 blablab
 -------
 
-    x <- "Hello world!"
+    cat("Hello world!")
+
+    ## Hello world!

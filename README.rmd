@@ -1,19 +1,25 @@
 
 ---
-output: md_document
-title: GitHub Test
+output: github_document
 ---
 
-<!-- author information -->
+# GitHub Test
+
 <div>
-by <a href="mailto:firstname.lastname [@] outlook.com">Konstantin Lang</a>
+by <a href="mailto:firstname.lastname [@] outlook.com">Konstantin "Karl Komet" Lang</a>
 </div>
 
+```{r chunk_opts, include = FALSE}
+knitr::opts_chunk$set(echo = TRUE, include = TRUE)
+```
+
+
 # Purpose
+
 Test connection to RStudio
 
 ## blablab
 
-```{r}
-x <- "Hello world!"
+```{r msg_001}
+cat("Hello world!")
 ```
