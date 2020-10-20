@@ -1,10 +1,6 @@
 
 ---
-output:
-  html_document:
-    highlight: pygments
-    number_sections: false
-    theme: spacelab
+output: md_document
 title: GitHub Test
 ---
 
@@ -20,5 +16,4 @@ Test connection to RStudio
 
 ```{r}
 x <- "Hello world!"
-print(x)
 ```
