@@ -1,0 +1,24 @@
+
+---
+output:
+  html_document:
+    highlight: pygments
+    number_sections: false
+    theme: spacelab
+title: GitHub Test
+---
+
+<!-- author information -->
+<div>
+by <a href="mailto:firstname.lastname [@] outlook.com">Konstantin Lang</a>
+</div>
+
+# Purpose
+Test connection to RStudio
+
+## blablab
+
+```{r}
+x <- "Hello world!"
+print(x)
+```
